@@ -1,0 +1,36 @@
+{
+  "name": "koa-signal",
+  "version": "0.1.0",
+  "description": "http+sse signalling middleware for koa",
+  "main": "index.js",
+  "dependencies": {
+    "co-body": "^2.0.0",
+    "end-of-stream": "^1.1.0",
+    "hat": "0.0.3"
+  },
+  "scripts": {
+    "test": "tap --harmony test.js"
+  },
+  "devDependencies": {
+    "koa": "^0.21.0",
+    "ssejson": "^1.2.0",
+    "request": "^2.58.0",
+    "tap": "^1.3.1"
+  },
+  "keywords": [
+    "webrtc",
+    "sse",
+    "signal",
+    "koa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetsuo/koa-signal.git"
+  },
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetsuo/koa-signal/issues"
+  },
+  "homepage": "https://github.com/tetsuo/koa-signal"
+}
